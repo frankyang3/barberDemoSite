@@ -8,6 +8,10 @@
     --pricegray: #DBD2B7;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .c-mainTitleSize{
     font-size: 70px;
 }
@@ -59,7 +63,105 @@
     color: var(--white)
 }
 
+.c-center{
+    text-align:center;
+}
+
+.c-downArrowPosition{
+    position:absolute;
+    max-width: 15vw;
+    max-height:12vh;
+    display:block;
+    margin-left:-3vw;
+    bottom: 1vh;
+    left:50%;
+    transition: transform .2s;
+    opacity: 1;
+   
+}
+
+.c-downArrowPosition:hover{
+    max-width: 10vw;
+    transform: scale(1.5);
+}
+
+.c-homeTitle{
+    margin: 0 auto;
+    width: 40vw;
+    padding:2vh;
+    opacity:80%;
+}
+.c-homeTitleWrapper{
+    position:absolute;
+    top:20%;
+    width:100%;
+}
+
+.c-homeLocations{
+    margin: 0 auto;
+    width: 20vw;
+    padding:1vw;
+    opacity:80%;
+}
+.c-homeLocationsWrapper{
+    position:absolute;
+    top:40%;
+    width:100%;
+}
+
+.c-homeOpenHours{
+    margin: 0 auto;
+    width: 20vw;
+    padding:20px;
+    opacity:80%;
+}
+.c-homeOpenHoursWrapper{
+    position:absolute;
+    top:55%;
+    width:100%;
+}
+
+
+.c-backgroundImg{
+    background-image: url('../assets/barber-landing.jpg');
+    background-repeat: no-repeat;
+    z-index:-1;
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+}
+
+#menu{
+    position: fixed;
+    overflow: hidden;
+    background-color: var(--darkbrown);
+    top: 0;
+    width: 100%;
+    opacity:95%;
+}
+
+#menu a {
+    float: left;
+    display: block;
+    color: var(--orangebrown);
+    text-align: center;
+    padding: 14px 3vw;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#menu a:hover {
+    background-color: var(--brown);
+    color: var(--white);
+}
+
+#top{
+    height:110vh;
+    position: relative;
+   
+}
+
 #services{
     width: 100%;
     height: 110vh;
 }
+

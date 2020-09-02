@@ -1,7 +1,4 @@
 :root{
-    margin: 0px;
-    padding: 0px;
-
     --darkbrown:  #211717;
     --brown: #A34A28;
     --orangebrown: #F58B54;
@@ -11,59 +8,131 @@
     --pricegray: #DBD2B7;
 }
 
+body{
+    margin: 0;
+}
+
+.c-roboto{
+    font-family: "Roboto"
+}
+
+.c-priceSize{
+    font-size: 50px;
+}
+
 .c-mainTitleSize{
     font-size: 70px;
 }
 
 .c-textSize{
-    font-size:16px;
+    font-size: 16px;
+}
+
+.c-priceTextSize{
+    font-size: 15px;
 }
 
 .c-priceTitleSize{
-    font-size:30px;
+    font-size: 30px;
 }
 
 .c-subTitleSize{
-    font-size:20px;
+    font-size: 20px;
 }
 
 .c-bgDarkBrown{
-    background-color: var(--darkbrown)
+    background-color: var(--darkbrown);
 }
 
 .c-bgBrown{
-    background-color: var(--brown)
+    background-color: var(--brown);
 }
 
 .c-bgGray{
-    background-color: var(--gray)
+    background-color: var(--gray);
 }
 
 .c-bgOrangeBrown{
-    background-color: var(--orangebrown)
+    background-color: var(--orangebrown);
 }
+
 .c-darkbrownText{
-    color: var(--darkbrown)
+    color: var(--darkbrown);
 }
 
 .c-brownText{
-    color: var(--brown)
+    color: var(--brown);
 }
 
 .c-orangebrownText{
-    color: var(--orangebrown)
+    color: var(--orangebrown);
 }
 
 .c-grayText{
-    color: var(--gray)
+    color: var(--gray);
 }
 
 .c-whiteText{
-    color: var(--white)
+    color: var(--white);
+}
+
+.c-priceColor{
+    fill: var(--gray);
+}
+
+.c-priceTitleColor{
+    fill: var(--darkbrown);
 }
 
 #prices{
     width: 100%;
-    height: 110vh;
-    background-color: var(--gray);
+    height: 79vh;
+}
+
+#priceheader{
+    text-align: center;
+    padding-top: 1vh;
+    margin-bottom: 0;
+}
+
+#pricesub{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 2vh;
+}
+
+#pricediv{
+    display: block;
+    margin: auto;
+    stroke: var(--brown);
+    stroke-width: 2px;
+}
+
+#pricedisp{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 75%;
+    margin-top: 5vh;
+    height: 50vh;
+}
+
+.pricebg{
+    fill: var(--brown);
+}
+
+.priceinner{
+    stroke: var(--pricegray);
+    stroke-width: 3px;
+    fill: none;
+}
+
+.dottedRect{
+    stroke-dasharray: 5 4;
+}
+
+#innercircle{
+    fill: none;
+    stroke: var(--pricegray);
+    stroke-width: 3px;
 }

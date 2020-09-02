@@ -116,7 +116,7 @@ body{
 
 .c-homeTitle{
     margin: 0 auto;
-    width: 40vw;
+    width: 600px;
     padding:2vh;
     opacity:80%;
 }
@@ -128,7 +128,7 @@ body{
 
 .c-homeLocations{
     margin: 0 auto;
-    width: 20vw;
+    width: 200px;
     padding:1vw;
     opacity:80%;
 }
@@ -140,7 +140,7 @@ body{
 
 .c-homeOpenHours{
     margin: 0 auto;
-    width: 20vw;
+    width: 250px;
     padding:20px;
     opacity:80%;
 }

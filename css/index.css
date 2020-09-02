@@ -7,3 +7,19 @@
     --white: #FFFFFF;
     --pricegray: #DBD2B7;
 }
+
+.c-mainTitleSize{
+    font-size: 70px;
+}
+
+.c-textSize{
+    font-size:16px;
+}
+
+.c-priceTitleSize{
+    font-size:30px;
+}
+
+.c-subTitleSize{
+    font-size:20px;
+}

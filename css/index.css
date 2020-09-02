@@ -146,7 +146,6 @@ body{
     width:100%;
 }
 
-
 .c-backgroundImg{
     background-image: url('../assets/barber-landing.jpg');
     background-repeat: no-repeat;
@@ -198,6 +197,7 @@ body{
 }
 
 #prices{
+    margin-top:-50px;
     width: 100%;
     height: 79vh;
 }

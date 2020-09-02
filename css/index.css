@@ -27,6 +27,21 @@
     font-size:20px;
 }
 
+.c-bgDarkBrown{
+    background-color: var(--darkbrown)
+}
+
+.c-bgBrown{
+    background-color: var(--brown)
+}
+
+.c-bgGray{
+    background-color: var(--gray)
+}
+
+.c-bgOrangeBrown{
+    background-color: var(--orangebrown)
+}
 .c-darkbrownText{
     color: var(--darkbrown)
 }

@@ -39,3 +39,27 @@
 .c-bgOrangeBrown{
     background-color: var(--orangebrown)
 }
+.c-darkbrownText{
+    color: var(--darkbrown)
+}
+
+.c-brownText{
+    color: var(--brown)
+}
+
+.c-orangebrownText{
+    color: var(--orangebrown)
+}
+
+.c-grayText{
+    color: var(--gray)
+}
+
+.c-whiteText{
+    color: var(--white)
+}
+
+#services{
+    width: 100%;
+    height: 110vh;
+}

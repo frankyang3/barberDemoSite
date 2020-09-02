@@ -1,4 +1,7 @@
 :root{
+    margin: 0px;
+    padding: 0px;
+
     --darkbrown:  #211717;
     --brown: #A34A28;
     --orangebrown: #F58B54;
@@ -165,3 +168,8 @@ html{
     height: 110vh;
 }
 
+#prices{
+    width: 100%;
+    height: 110vh;
+    background-color: var(--gray);
+}

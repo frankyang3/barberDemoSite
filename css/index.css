@@ -1,13 +1,9 @@
 :root{
-    --blbrown: rgba(33, 23, 23, 0.95);
-    --orbrown: #F58B54;
-    --trgray: rgba(223, 221, 199, 0.8);
-    --trbrown: rgba(163, 74, 40, 0.8);
-    --addbrown: #A34A28;
-    --labelgray: #DFDDC7;
+    --darkbrown:  #211717;
+    --brown: #A34A28;
+    --orangebrown: #F58B54;
+    --gray: #DFDDC7;
     --labelbrown: #8B4226;
     --white: #FFFFFF;
-    --labelblack:  #211717;
     --pricegray: #DBD2B7;
-    --reviewbrown: rgba(33, 23, 23, 0.5);
 }

@@ -23,3 +23,23 @@
 .c-subTitleSize{
     font-size:20px;
 }
+
+.c-darkbrownText{
+    color: var(--darkbrown)
+}
+
+.c-brownText{
+    color: var(--brown)
+}
+
+.c-orangebrownText{
+    color: var(--orangebrown)
+}
+
+.c-grayText{
+    color: var(--gray)
+}
+
+.c-whiteText{
+    color: var(--white)
+}

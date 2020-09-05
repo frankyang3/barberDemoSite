@@ -190,21 +190,81 @@ body{
 
 #top{
     width:100%;
-    height:110vh;
+    height:105vh;
     position: relative;
-   
+    overflow: hidden; 
 }
 
 #services{
+    position: relative;
     width: 100%;
     height: 110vh;
-    margin-bottom: -50px;
+    overflow: hidden; 
+}
+
+.service-grid{
+    position:absolute;
+    top:10%;
+    left:50%;
+    margin-left:calc( -37.5vmin + -5vw);
+    display: grid;
+    grid-template-columns: repeat(3,25vmin);  /* 3 columns */
+    grid-template-rows: repeat(2,25vmin); /* 3 rows  */
+    grid-gap:7.5vh 5vw; /* 50 pixels of space added between rows and 30 pixels added between columns  */
+}
+
+.service-wrapper{
+    position:relative;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.service-grid img{
+    border-radius:30px;
+    object-fit:cover;
+    width: 100%;
+    height:100%;
+}
+
+.c-grid-item img{
+    position: absolute;
+    transition: filter .5s ease-in-out;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.c-grid-item img:hover{
+    -webkit-filter: grayscale(0%); 
+    filter: grayscale(0%); 
+}
+
+.c-grid-item{
+    position: relative;
+}
+
+.c-circle {
+    position: absolute;
+    text-align: center;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    background: black;
+    border: black;
+    transition: filter .5s ease-in-out;
+    -webkit-filter: opacity(0%);
+    filter: opacity(0%);
+}
+
+.c-circle:hover{
+    -webkit-filter: opacity(80%); 
+    filter: opacity(80%); 
 }
 
 #prices{
     width: 100%;
-    height: 73.5vh;
+    height: 90vh;
     scroll-margin-top: 150px;
+    overflow: auto; 
 }
 
 #priceheader{
@@ -223,6 +283,25 @@ body{
     display: block;
     margin: auto;
     stroke: var(--brown);
+    stroke-width: 2px;
+}
+
+#serviceheader{
+    text-align: center;
+    padding-top: 3vh;
+    margin-bottom: 0;
+}
+
+#servicesub{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 1.5vh;
+}
+
+#servicediv{
+    display: block;
+    margin: auto;
+    stroke: var(--gray);
     stroke-width: 2px;
 }
 
@@ -267,4 +346,5 @@ body{
     position:relative;
     width: 100%;
     height: 20vh;
+    overflow: hidden; 
 }

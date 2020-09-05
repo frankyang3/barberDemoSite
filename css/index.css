@@ -342,6 +342,19 @@ body{
     margin-left: 4vw;
 }
 
+.stars{
+    margin-top: 5vh;
+    margin-left: 26vw;
+}
+
+.name{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 14px;
+    color: var(--gray);
+    margin-top: -3.5vh;
+    margin-left: 34.8vw;
+}
+
 #bottom{
     position:relative;
     width: 100%;

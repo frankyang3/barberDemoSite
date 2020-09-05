@@ -203,8 +203,8 @@ body{
 
 #prices{
     width: 100%;
-    height: 73.5vh;
-    scroll-margin-top: 150px;
+    scroll-margin-top: 100px;
+    padding-bottom: 120px;
 }
 
 #priceheader{
@@ -252,6 +252,14 @@ body{
     fill: var(--darkbrown);
 }
 
+.orderbtn:hover{
+    fill: var(--white);
+}
+
+.c-orderTxt{
+    user-select: none;
+}
+
 #innercircle{
     fill: none;
     stroke: var(--pricegray);
@@ -261,6 +269,77 @@ body{
 #testimonials{
     width: 100%;
     height: 110vh;
+    margin-top: -50px;
+    scroll-margin-top: 30px;
+}
+
+#testheader{
+    text-align: center;
+    padding-top: 3.5vh;
+    margin-bottom: 0;
+}
+
+#testsub{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 1.5vh;
+}
+
+#testdiv{
+    display: block;
+    margin: auto;
+    stroke: var(--gray);
+    stroke-width: 2px;
+}
+
+#revDisp{
+    width: 75%;
+    height: 70vh;
+    margin: auto;
+    margin-top: 4.6vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+.revDiv{
+    background-color:rgba(33, 23, 23, 0.5);
+    width: 100%;
+    height: 32vh;
+    border-radius: 30px;
+    display: flex;
+}
+
+.revPic{
+    height: 26vh;
+    width: 26vh;
+    margin: auto;
+    margin-right: 3vw;
+    margin-left: 3vh;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.headerRev{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: var(--gray);
+    margin-top: 4vh;
+}
+
+.revDesc{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 14px;
+    color: var(--gray);
+    margin-top: 4vh;
+}
+
+.txtSep{
+    margin-right: 5.5vw;
+    margin-left: 4vw;
 }
 
 #bottom{

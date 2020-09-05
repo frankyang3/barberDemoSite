@@ -24,6 +24,10 @@ body{
     font-size: 50px;
 }
 
+.c-smallSize{
+    font-size:12px;
+}
+
 .c-mainTitleSize{
     font-size: 70px;
 }
@@ -226,6 +230,24 @@ body{
     height:100%;
 }
 
+.c-serviceButton{
+    position:absolute;
+    left:50%;
+    top:80%;
+    margin-left:-4vw;
+    opacity:100%;
+    width: 8vw;
+    height:3vh;
+    border-radius:10px;
+    background-color:var(--darkbrown);
+    color:var(--brown);
+}
+
+.c-serviceButton:hover{
+    background-color:var(--brown);
+    color:var(--gray);
+}
+
 .c-grid-item img{
     position: absolute;
     transition: filter .5s ease-in-out;
@@ -233,17 +255,25 @@ body{
     filter: grayscale(100%);
 }
 
-.c-grid-item img:hover{
-    -webkit-filter: grayscale(0%); 
-    filter: grayscale(0%); 
-}
-
 .c-grid-item{
     position: relative;
 }
 
+.c-grid-item:hover > img{
+
+    -webkit-filter: grayscale(0%); 
+    filter: grayscale(0%); 
+}
+
+.c-grid-item:hover > .c-circle{
+    -webkit-filter: opacity(80%); 
+    filter: opacity(90%); 
+
+}
+
 .c-circle {
     position: absolute;
+    z-index:1;
     text-align: center;
     border-radius: 50%;
     width: 100%;
@@ -253,11 +283,6 @@ body{
     transition: filter .5s ease-in-out;
     -webkit-filter: opacity(0%);
     filter: opacity(0%);
-}
-
-.c-circle:hover{
-    -webkit-filter: opacity(80%); 
-    filter: opacity(80%); 
 }
 
 #prices{
